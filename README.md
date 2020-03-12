@@ -23,3 +23,7 @@
 ribbon自定义配置类不能放在@ComponentScan所扫描的当前包下以及其子包
 
 否则我们自定义的这个配置就会被所有的Ribbon客户端所共享，达不到特殊定制化的需要
+
+## 全链路监控
+
+zipkin的下载地址： http://dl.bintray.com/openzipkin/maven/io/zipkin/java/zipkin-server/ 

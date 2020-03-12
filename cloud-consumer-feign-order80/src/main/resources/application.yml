@@ -5,7 +5,8 @@ eureka:
     register-with-eureka: true   #是否将自己注册到注册中心,集群必须设置为true配合ribbon
     fetch-registry: true    #是否从服务端抓取已有的注册信息
     service-url:
-      defaultZone: http://erueka7002.com:7002/eureka/,http://erueka7001.com:7001/eureka/
+      defaultZone: http://erueka7001.com:7001/eureka/
+#      defaultZone: http://erueka7002.com:7002/eureka/,http://erueka7001.com:7001/eureka/
   instance:
     instance-id: consumer-order80
     prefer-ip-address: true  #访问路径可以显示IP地址
@@ -14,6 +15,10 @@ eureka:
 spring:
   application:
     name: consumer-order
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    propagation: 1
 #设置feign客户端超时时间
 ribbon:
   #建立连接所用时间
