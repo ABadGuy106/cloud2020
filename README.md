@@ -27,3 +27,19 @@ ribbon自定义配置类不能放在@ComponentScan所扫描的当前包下以及
 ## 全链路监控
 
 zipkin的下载地址： http://dl.bintray.com/openzipkin/maven/io/zipkin/java/zipkin-server/ 
+
+# Spring Cloud Alibaba
+
+地址:  https://github.com/alibaba/spring-cloud-alibaba/blob/master/README-zh.md 
+
+## Nacos
+
+下载地址:  https://github.com/alibaba/nacos/releases/tag/1.2.0-beta.0 
+
+说明文档：  https://nacos.io/zh-cn/docs/cluster-mode-quick-start.html 
+
+## Sentinel
+
+下载地址： https://github.com/alibaba/Sentinel/releases 
+
+说明文档：  [https://github.com/alibaba/Sentinel/wiki/%E4%BB%8B%E7%BB%8D](https://github.com/alibaba/Sentinel/wiki/介绍) 
